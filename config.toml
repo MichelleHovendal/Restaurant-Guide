@@ -1,0 +1,9 @@
+baseURL = "https://restaurant-guide.github.io/"
+theme = "paper"
+languageCode = "en-us"
+title = "Restaurant Guide for North America"
+
+[params]
+  [[params.menu.item]]
+    title = "Github - Explainer Notebook
+    url = "https://github.com/Restaurant-Guide/Restaurant-Guide"
