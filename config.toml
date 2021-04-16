@@ -3,7 +3,14 @@ theme = "paper"
 languageCode = "en-us"
 title = "Restaurant Guide for North America"
 
-[params]
-  [[params.menu.item]]
-    title = "Github - Explainer Notebook
-    url = "https://github.com/Restaurant-Guide/Restaurant-Guide"
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/XXX"
+    twitter = "https://twitter.com/XXX"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
