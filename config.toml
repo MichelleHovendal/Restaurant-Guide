@@ -3,6 +3,46 @@ theme = "hugo-PaperMod"
 languageCode = "en-us"
 title = "Restaurant Guide for North America"
 
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+
+[params]
+  env = "production"
+  # description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author = ["Ellen Winther Mortensen","Julius  Pulvertaft Rasmussen","Michelle Siw Hovendal"]
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = false
+  displayFullLangName = true
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowToc = false
+
+  [params.homeInfoParams]
+  Title = "PaperMod"
+  Content = """
+  This webpage is made by: Ellen Winther Mortensen, Julius Pulvertaft Rasmussen, and Michelle Siw Hovendal 
+and is part of the final project in the course Social Data Analysis and Vissualization at Technical
+University of Denmark (DTU). This webpage is made in the spring 2021.
+
+The aim of the webpage is about restaurants placed in North America, the data is based on [yelp data](https://www.yelp.com/dataset). The Python explainer notebook is attached here. 
+
+An introduction video has been made to explain and get a feeling of what the webpage can do. Please enjoy.	
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Restaurant-Guide/Restaurant-Guide/wiki"
+
+  [[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtu.be/tP36rm07aRA"
+
 [[menu.main]]
     name = "Front page"
     url = "/"
@@ -12,3 +52,4 @@ title = "Restaurant Guide for North America"
     name = "About"
     url = "post/about"
     weight = 2
+
