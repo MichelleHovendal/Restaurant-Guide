@@ -13,10 +13,9 @@ enableEmoji = true
 
 [params]
   env = "production"
-  # description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author = ["Ellen Winther Mortensen","Julius  Pulvertaft Rasmussen","Michelle Siw Hovendal"]
+  author = ["Ellen Winther Mortensen", "Julius  Pulvertaft Rasmussen", "Michelle Siw Hovendal"]
   defaultTheme = "auto"
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowReadingTime = false
   displayFullLangName = true
   ShowPostNavLinks = false
@@ -24,11 +23,11 @@ enableEmoji = true
   ShowToc = false
 
   [params.homeInfoParams]
-  Title = "PaperMod"
+  Title = "About this webpage"
   Content = """
-  This webpage is made by: Ellen Winther Mortensen, Julius Pulvertaft Rasmussen, and Michelle Siw Hovendal 
-and is part of the final project in the course Social Data Analysis and Vissualization at Technical
-University of Denmark (DTU). This webpage is made in the spring 2021.
+  This webpage is made by Ellen Winther Mortensen, Julius Pulvertaft Rasmussen, and Michelle Siw Hovendal 
+and is part of the final project in the course Social Data Analysis and Visualization at Technical
+University of Denmark (DTU). This webpage is made in spring 2021.
 
 The aim of the webpage is about restaurants placed in North America, the data is based on [yelp data](https://www.yelp.com/dataset). The Python explainer notebook is attached here. 
 
@@ -44,12 +43,9 @@ An introduction video has been made to explain and get a feeling of what the web
   url = "https://youtu.be/tP36rm07aRA"
 
 [[menu.main]]
-    name = "Front page"
+    name = "Home"
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "About"
-    url = "post/about"
-    weight = 2
+
 
