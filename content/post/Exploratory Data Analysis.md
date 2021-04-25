@@ -6,4 +6,5 @@ weight: 2
 ---
 
 ![Image](/image/Test.png)
+![plot](/test.html)
 
