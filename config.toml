@@ -5,11 +5,10 @@ title = "Restaurant Guide for North America"
 
 enableInlineShortcodes = true
 enableRobotsTXT = true
-buildDrafts = false
+buildDrafts = true
 buildFuture = false
 buildExpired = false
 enableEmoji = true
-
 
 [params]
   env = "production"
@@ -48,4 +47,6 @@ An introduction video has been made to explain and get a feeling of what the web
     weight = 1
 
 
+[markup.goldmark.renderer]
+    unsafe = true
 
