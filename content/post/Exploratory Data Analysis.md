@@ -14,6 +14,45 @@ Text about the plot
 <script type="text/javascript">
             Bokeh.set_log_level("info");
 </script>
+<div class="bk-root" id="2973fe21-e683-4ad0-8748-1941290aec43" data-root-id="18018">
+</div>
+<script type="application/json" id="18768">
+          {"1a627a44-70f6-4935-b04d-cf673baaddf1":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"18029"}],"center":[{"id":"18036"},{"id":"18044"}],"left":[{"id":"18037"}],"renderers":[{"id":"18061"},{"id":"18066"}],"title":{"id":"18019"},"toolbar":{"id":"18053"},"x_range":{"id":"18021"},"x_scale":{"id":"18025"},"y_range":{"id":"18023"},"y_scale":{"id":"18027"}},"id":"18018","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"18029"},"ticker":null},"id":"18036","type":"Grid"},{"attributes":{},"id":"18025","type":"LinearScale"},{"attributes":{},"id":"18050","type":"HelpTool"},{"attributes":{},"id":"18023","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"18051","type":"BoxAnnotation"},{"attributes":{},"id":"18504","type":"UnionRenderers"},{"attributes":{"dimension":"lat"},"id":"18038","type":"MercatorTicker"},{"attributes":{"attribution":"&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\"&gt;OpenStreetMap&lt;/a&gt; contributors,&amp;copy; &lt;a href=\"https://cartodb.com/attributions\"&gt;CartoDB&lt;/a&gt;","url":"https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"},"id":"18016","type":"WMTSTileSource"},{"attributes":{"dimension":"lat"},"id":"18040","type":"MercatorTickFormatter"},{"attributes":{"data":{"Counts":[2043,1462,1153,1125,1073,816,729,148,138,1],"State":["Massachusetts","Florida","Oregon","British Columbia","Georgia","Texas","Ohio","Colorado","Washington","Kansas"],"coordinates":[[42.407211,-71.382439],[27.994402,-81.760254],[44.0,-120.5],[53.726669,-127.647621],[33.247875,-83.441162],[31.0,-100.0],[40.367474,-82.996216],[39.113014,-105.358887],[47.751076,-120.740135],[38.5,-98.0]],"index":[5,2,7,0,3,8,6,1,9,4],"latitude":{"__ndarray__":"JclzfR80RUC2EyUhkf47QAAAAAAAAEZALgJjfQPdSkB9PzVeup9AQAAAAAAAAD9ArhBWYwkvREC9/iQ+d45DQL5nJEIj4EdAAAAAAABAQ0A=","dtype":"float64","order":"little","shape":[10]},"longitude":{"__ndarray__":"wm1t4XnYUcDOqWQAqHBUwAAAAAAAIF7A+8xZn3LpX8A7j4r/O9xUwAAAAAAAAFnAIPDAAMK/VMBp/S0B+FZawP/nMF9eL17AAAAAAACAWMA=","dtype":"float64","order":"little","shape":[10]},"mercator":[[-7946256.761061912,5222174.205138603],[-9101509.84240871,3248268.0282565975],[-13413998.640589466,5465442.183322754],[-14209668.170692775,7118559.6876617335],[-9288627.66503905,3928251.6314549968],[-11131949.079327356,3632749.143384427],[-9239096.502888545,4919487.17752223],[-11728497.65138605,4737872.811227995],[-13440730.346511107,6065542.2099071],[-10909310.09774081,4650301.836738959]],"mercator_x":{"__ndarray__":"Bj21MARQXsEcA/W6GFxhwXu1f9TNlWnBslB2hVAaa8H5/0d1drdhwYbZiaKFO2XBuKkXEEefYcGPJ9g0zl5mwXaeFkvbomnBVrEgw8/OZME=","dtype":"float64","order":"little","shape":[10]},"mercator_y":{"__ndarray__":"qv0gjcfrU0GF6Z0DRshIQVyPu4tY2VRBXKYC7LcnW0FwhNPQXfhNQcBrWpI2t0tBM4Zcyy/EUkHTKOsz1BJSQTAeb41hI1dBkCGNdU+9UUE=","dtype":"float64","order":"little","shape":[10]},"state":["MA","FL","OR","BC","GA","TX","OH","CO","WA","KS"]},"selected":{"id":"18505"},"selection_policy":{"id":"18504"}},"id":"18017","type":"ColumnDataSource"},{"attributes":{"active_multi":null,"tools":[{"id":"18045"},{"id":"18046"},{"id":"18047"},{"id":"18048"},{"id":"18049"},{"id":"18050"},{"id":"18052"}]},"id":"18053","type":"Toolbar"},{"attributes":{},"id":"18505","type":"Selection"},{"attributes":{"axis_label":"Latitude","formatter":{"id":"18040"},"major_label_policy":{"id":"18503"},"ticker":{"id":"18038"}},"id":"18037","type":"MercatorAxis"},{"attributes":{"data_source":{"id":"18017"},"glyph":{"id":"18064"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"18065"},"view":{"id":"18067"}},"id":"18066","type":"GlyphRenderer"},{"attributes":{},"id":"18048","type":"SaveTool"},{"attributes":{},"id":"18021","type":"DataRange1d"},{"attributes":{"dimension":"lon"},"id":"18032","type":"MercatorTickFormatter"},{"attributes":{"fill_alpha":{"value":0.7},"fill_color":{"value":"lightblue"},"line_color":{"value":"lightblue"},"size":{"value":20},"x":{"field":"mercator_x"},"y":{"field":"mercator_y"}},"id":"18064","type":"Circle"},{"attributes":{"axis":{"id":"18037"},"dimension":1,"ticker":null},"id":"18044","type":"Grid"},{"attributes":{},"id":"18500","type":"AllLabels"},{"attributes":{},"id":"18027","type":"LinearScale"},{"attributes":{"dimension":"lon"},"id":"18030","type":"MercatorTicker"},{"attributes":{"source":{"id":"18017"}},"id":"18067","type":"CDSView"},{"attributes":{"text":"Avocado Prices by region in the United States"},"id":"18019","type":"Title"},{"attributes":{},"id":"18046","type":"WheelZoomTool"},{"attributes":{"callback":null,"tooltips":[["State","@State"],["Count","@Counts"]]},"id":"18052","type":"HoverTool"},{"attributes":{"overlay":{"id":"18051"}},"id":"18047","type":"BoxZoomTool"},{"attributes":{"tile_source":{"id":"18016"}},"id":"18061","type":"TileRenderer"},{"attributes":{"axis_label":"Longitude","formatter":{"id":"18032"},"major_label_policy":{"id":"18500"},"ticker":{"id":"18030"}},"id":"18029","type":"MercatorAxis"},{"attributes":{},"id":"18049","type":"ResetTool"},{"attributes":{},"id":"18503","type":"AllLabels"},{"attributes":{},"id":"18045","type":"PanTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"lightblue"},"line_alpha":{"value":0.1},"line_color":{"value":"lightblue"},"size":{"value":20},"x":{"field":"mercator_x"},"y":{"field":"mercator_y"}},"id":"18065","type":"Circle"}],"root_ids":["18018"]},"title":"Bokeh Application","version":"2.3.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                  var docs_json = document.getElementById('18768').textContent;
+                  var render_items = [{"docid":"1a627a44-70f6-4935-b04d-cf673baaddf1","root_ids":["18018"],"roots":{"18018":"2973fe21-e683-4ad0-8748-1941290aec43"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
 <div class="bk-root" id="bb6c74d9-5366-4f7f-851e-4f82717c9225" data-root-id="7380">
 </div>
 <script type="application/json" id="7939">
