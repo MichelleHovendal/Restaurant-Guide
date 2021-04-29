@@ -1,8 +1,8 @@
 ---
-title: "Find Restaurant"
+title: "Find your favorite restaurant"
 date: 2021-04-18T08:33:03+02:00
-draft: False
-weight: 3
+draft: True
+weight: 4
 ---
 
-Cool maps of our restaurants
+Cool map of our restaurants
