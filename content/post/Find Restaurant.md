@@ -6,3 +6,5 @@ weight: 4
 ---
 
 Cool map of our restaurants
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Restaurant-Guide/favorite-restaurant-interactive.git/main?urlpath=%2Fproxy%2F5006%2Fbokeh-app)
