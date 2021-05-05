@@ -28,9 +28,7 @@ enableEmoji = true
 and is part of the final project in the course Social Data Analysis and Visualization at Technical
 University of Denmark (DTU). This webpage is made in spring 2021.
 
-The aim of the webpage is about restaurants placed in North America, the data is based on [yelp data](https://www.yelp.com/dataset). The Python explainer notebook is attached here. 
-
-An introduction video has been made to explain and get a feeling of what the webpage can do. Please enjoy.	
+The aim of the webpage is about restaurants placed in North America, the data is based on [yelp data](https://www.yelp.com/dataset). The Python explainer notebook is attached here. 	
 """
 
   [[params.socialIcons]]
