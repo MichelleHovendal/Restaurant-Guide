@@ -218,6 +218,7 @@ American (Traditional) are the most representated ones, they only have 64 five s
 ## Price ranges
 
 **Test af tabs html**
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.js"></script>
