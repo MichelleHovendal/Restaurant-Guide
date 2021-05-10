@@ -6,7 +6,7 @@ weight: 4
 ---
 Welcome to the final tool of this website, namely the interactive map where you can find your new favorite restaurant. 
 See the gif how to use the plot and how you can use the table.
-![gif](image/Animation.gif)
+![gif]({{< baseurl >}}/image/final.gif)
 
 The plot is presented below, if the mybinder shows up blank, please click on the launch binder and it will launches in a new tap. Sorry for any inconvience
 if this is the case for you. Be aware that mybinder can take some time to load. 
