@@ -159,8 +159,13 @@ to shift tabs between the different metrics.
           })();
         </script>
 
-**Afrunding?** Måske noget med at det er svært at bruge data fra KY og KN når der kun er en restaurant i
-hver state.
+### Summary
+It is now clear what the data consists of and the magnitude of it. When going further in
+In the analysis please keep in mind that there is only one restaurant in Kansas and Kentucky.
+So the data is now representable for these two states. Furthermore, the data presents more
+than 2100 restaurants in Massachusetts and it is also found that reviews are given in the same 
+state. 
+It is seen that the data is based on North America, because of the large number of American restaurants. 
 
 ## Score Ratings
 This section will present the average stars given by the all reviewers. The stars are rounded to either 
@@ -213,7 +218,6 @@ American (Traditional) are the most representated ones, they only have 64 five s
           })();
         </script>
 
-**Afrunding** igen, om hvad? 
 
 ## Price ranges
 The restaurants contained in the Yelp data are grouped in price ranges. These are as follows: **$**: 1-10 dollar, **$$**: 11-30 dollar, **$$$**: 31-60 dollar and **$$$$**: 60+ dollar (https://www.yelp.com/topic/mesa-what-is-latest-definition-and-range-of-the-dollar-sign-on-yelp-for-actual-expense). For some restaurants, this price range is not known hence they fall into the category **Unknown**. Below you will see two different charts on these price ranges. The first tabs shows the distribution of restaurants in the different ranges. The vast majority of restaurants are in the second lowest price range – more precisely 5329 restaurants,  while there are only 54 restaurants in the most expensive category. Generally there are more cheap restaurants than expensive ones.
