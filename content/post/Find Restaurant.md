@@ -1,7 +1,7 @@
 ---
 title: "Find your favorite restaurant"
 date: 2021-04-18T08:33:03+02:00
-draft: True
+draft: False
 weight: 4
 ---
 Welcome to the final tool of this website, namely the interactive map where you can find your new favorite restaurant. 
