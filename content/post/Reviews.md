@@ -69,3 +69,4 @@ To compare the words in the reviews are shown three pictures with the most used 
 
 ![Fake reviews]({{< baseurl >}}/image/wordFake.png)
 
+It should be noticed that the most used words are note the same. Furthermore it should be noticed than it is stemmed words, so the words might look at bit funny. 
