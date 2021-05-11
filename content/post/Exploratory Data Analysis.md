@@ -230,7 +230,7 @@ These are as follows:
 * Unknown: 0 dollar
 
 For some restaurants, this price range is not known hence they fall into the category Unknown. 
-Below you will see two different bar charts on these price ranges. The first tabs shows the distribution 
+Below you will see two different bar charts on these price ranges. The first chart shows the distribution 
 of restaurants in the different ranges. The vast majority of restaurants are in the second lowest price 
 range – more precisely 5329 restaurants,  while there are only 54 restaurants in the most expensive category.
 Generally there are more cheap restaurants than expensive ones.
