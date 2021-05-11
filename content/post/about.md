@@ -24,4 +24,5 @@ which consists of the following
 * 200,000 pictures
 * 2,189,457 unique users
 
-Note that not all the information is used to develop the website, e.g. the pictures are not used.
+Note that not all the information is used to develop the website, e.g. the pictures are not used. 
+The considered dataset spans over the time-period of from 01-01-2004 to 28-01-2021.
