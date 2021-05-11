@@ -6,10 +6,16 @@ weight: 3
 ---
 
 ## Fake reviews
-In this section the fake reviews are detected. That is, the 20% reviews that are most likely to be fake reviews, are detected as fake reviews. In that way you will able to find you restaurant based on what is detected as the real reviews. 
+In this section the fake reviews are detected. Based on research studies, it is said that 20% of the reviews are most likely to be fake reviews. 
+In that way you will able to find you restaurant based on what is detected as the real reviews. (? - Tror ikke jeg forstår)
 
-In the plot below is shown the percentage of fake reviws. The four tabs show percentage fake reviews within some feature; either stars, type of restaurant, type of kitchen or state. For example for the fake reviews within stars, it is the percentage fake reviews of reviews giving that particular star. 
+In the plot below, it is shown the percentage of fake reviws over different categories. The four tabs show the percentage of fake reviews within some feature; either stars, 
+type of restaurant, type of kitchen or state. For example for the fake reviews within stars, it is the percentage fake reviews of reviews 
+giving that particular star. 
 
+**MÅSKE NÆVNE MODELLEN? OG HVORFOR DEN ER GOD TIL FAKE REVIEWS?**
+
+**JEG HAVDE FORVENTET AT FLERE FAKE REVIEWS LÅ I DEN HØJE ELLER LAVE ENDE, ER DET BARE MIG ELLER?**
 
 <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
 <script type="text/javascript">
@@ -55,18 +61,28 @@ In the plot below is shown the percentage of fake reviws. The four tabs show per
         </script>
         
         
-## Summary of fake reviews
-Overall can be seen that for the most part there are 20% fake reviews for the different stars, the different type of restaurant, the different type of kitchen and the states. Though it can be seen that there seems to be more fake reviews within reviews with 1 star. It seems there are almost 25% fake reviews within Cajun/Creole, whereas Indian. Within the states, Kentucky has almost 50% fake reviews, whereas Colorado, Kansas and Washinton only has about 15% fake reviews. Though it is important to rembember than Kantucky and Kansas have quite few reviews, so to almost 50% fake reviews are based on only 5 reviews detected as fake. 
+### Summary of fake reviews
+Overall, it can be seen that for the most part there are 20% fake reviews for the different stars, the different type of restaurant, 
+the different type of kitchen and the states. Though it can be seen that there seems to be more fake reviews within reviews with 
+1 star. It seems there are almost 25% fake reviews within Cajun/Creole, whereas Indian is lowest. Within the states, Kentucky has almost 50% 
+fake reviews, whereas Colorado, Kansas and Washinton only has about 15% fake reviews. Though it is important to rembember than 
+Kantucky and Kansas have quite few reviews, so to almost 50% fake reviews are based on only 5 reviews detected as fake. 
 
 
 ## Words in reviews
 
-To compare the words in the reviews are shown three pictures with the most used words in the reviews, in only the real reviws and in only the fake reviews. 
+To investigate if there is a difference between fake reviews and real reviews, word clouds are shown below. To understand the word cloud, a small description is given. 
+The larger the word is, the more is appears in the reviews. 
 
+
+The first word cloud is illustrating the words for all reviews, whereas the second and the third one are respectively real and fake reviews.
 ![Reviews]({{< baseurl >}}/image/wordReviews.png)
 
 ![Real reviews]({{< baseurl >}}/image/wordReal.png)
 
 ![Fake reviews]({{< baseurl >}}/image/wordFake.png)
 
-It should be noticed that the most used words are note the same. Furthermore it should be noticed than it is stemmed words, so the words might look at bit funny. 
+By a fast glimpse the most used words are not the same for the two review types. Furthermore it should be noticed than it is stemmed words, so the words might look at bit funny. 
+
+
+

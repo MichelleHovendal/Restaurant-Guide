@@ -24,12 +24,17 @@ enableEmoji = true
   [params.homeInfoParams]
   Title = "About this webpage"
   Content = """
-  This webpage is made by Ellen Winther Mortensen, Julius Pulvertaft Rasmussen, and Michelle Siw Hovendal 
-and is part of the final project in the course Social Data Analysis and Visualization at Technical
-University of Denmark (DTU). This webpage is made in spring 2021.
+This webpage is made by Ellen Winther Mortensen, Julius Pulvertaft Rasmussen 
+and Michelle Siw Hovendal. This is a part of the final project in the course 
+Social Data Analysis and Visualization at Technical University of Denmark (DTU).
+This webpage is made in the spring 2021. 
 
-The aim of the webpage is about restaurants placed in North America, the data is based on [yelp data](https://www.yelp.com/dataset). 
-The Python explainer notebook is attached [here](https://github.com/Restaurant-Guide/Restaurant-Guide/blob/master/code/Explainer%20Notebook.ipynb). 	
+The aim of the webpage is to help the user find their new restaurant visit
+without thinking about fake reviews. Thus, developing a machine learning
+model that detects the fake reviews and remove them from our dataset. 
+
+If you are interested, check out our Python Explainer notebook [here](https://github.com/Restaurant-Guide/Restaurant-Guide/blob/master/code/Explainer%20Notebook.ipynb).
+But feel free to check out our GitHub repo by clicking the GitHub logo beow.  	
 """
 
   [[params.socialIcons]]
