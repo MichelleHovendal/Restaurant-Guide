@@ -9,8 +9,8 @@ weight: 1
 
 Yelp is an American company founded in 2004. The idea behind the company is to publish 
 crowd-sourced reviews about businesses through their website Yelp.com and mobile app Yelp.
-In the second quarter of 2019, Yelp has an average of 61.8 million unique visitors through
-their website, while it was 76.7 million unique visitors on the app. As the internet gets 
+In the second quarter of 2019, Yelp had 61.8 million unique visitors through
+their website, while there was 76.7 million unique visitors on the app. As the internet gets 
 filled with more and more information and the likelihood of the information being false, 
 Yelp then provides a local platform for people to discover the true information. Check out their website [here](https://www.yelp-press.com/company/fast-facts/default.aspx)  
 
