@@ -37,7 +37,7 @@ But feel free to check out our GitHub repo by clicking the GitHub logo below.
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/Restaurant-Guide/Restaurant-Guide/wiki"
+  url = "https://github.com/Restaurant-Guide/Restaurant-Guide"
 
   [[params.socialIcons]]
   name = "youtube"
