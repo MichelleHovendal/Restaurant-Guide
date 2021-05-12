@@ -69,9 +69,7 @@ For the restaurant based on their star, an descreasing trend is also seen, excep
 
 Within type of restaurants, the percentage fake reviews are around 20%. Sushi bars have the higest percentage reviews with 30% fake reviews. The lowest percentage fake reviews is within Coffe and tea, which has 16% fake reviews. 
 
-Also within type of kitchen most kitchen types has a fake review percentage on about 20%. Japanese have the highest percentage on 
-
-27%, whereas Indian has the lowest percentage fake reviews on 15%.
+Also within type of kitchen most kitchen types has a fake review percentage on about 20%. Japanese have the highest percentage on 27%, whereas Indian has the lowest percentage fake reviews on 15%.
 
 Within states, the percentage fake reviews vary some more. Most of the states does have about 20% fake reviews, but Colorado does only have 15% fake reviews, whereas Kansas has 48% fake reviews and Kentucky has above 55% fake reviews. Though it is important to rembember that 
 Kantucky and Kansas have quite few reviews, so it doesn't take many fake reviews for the states to get a high percent fake reviews. 
