@@ -4,7 +4,7 @@ date: 2021-04-18T08:33:03+02:00
 draft: False
 weight: 4
 ---
-Welcome to the final tool of this website, namely the interactive map where you can find your new favorite restaurant. 
+Welcome to the final tool of this website - the interactive map where you can find your new favorite restaurant! 
 See the gif how to use the plot and how you can use the table.
 ![gif]({{< baseurl >}}/image/final.gif)
 
