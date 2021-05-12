@@ -2,15 +2,16 @@
 title: "Reviews"
 date: 2021-04-18T08:33:03+02:00
 draft: False
+Author: "Ellen Winther Mortensen"
 weight: 3
 ---
 
 ## Fake reviews
-In this section the fake reviews are detected. Based on research studies, it is estimated that 20% of the reviews are most likely to be fake reviews. In this section you can see where the fake reviews are detected based on the star given in the review, star of the restaurant, type of restaurant, type of kitchen and states.
+Finally, it is now presented how fake reviews are detected. Based on research studies, it is estimated that 20% of the reviews are most likely to be fake reviews. In this section, you can see where the fake reviews are detected based on the star given in the review, star of the restaurant, type of restaurant, type of kitchen and states.
 
-In the plot below, the percentage of fake reviws over different categories is shown. The five tabs show the percentage of fake reviews within some feature; either stars in the review, star of the restaurant type of restaurant, type of kitchen or state. For example for the fake reviews within review stars, it is the percentage fake reviews of reviews giving that particular star.
+In the plot below, the percentage of fake reviews over different categories is shown. The five tabs show the percentage of fake reviews within some feature; either star in the review, star of the restaurant type of restaurant, type of kitchen or state. For example for the fake reviews within review stars, it is the percentage of fake reviews of reviews giving that particular star.
 
-For the detection of fake reviews, anomaly detection is performed by the algorithm isolation forest in order to find outlier. The reviews detected as outliers is marked as fake reviews. The algorithm is a good way to detect outliers on a large dataset in a short time, which make it a very suitable algorithm for detecting fake reviews in a dataset with many reviews. The anomaly detection used different features for the prediction such as the stars given in the review, the text describing the review and many more.
+For the detection of fake reviews, anomaly detection is performed by the algorithm isolation forest to find outlier. The reviews detected as outliers are marked as fake reviews. The algorithm is a good way to detect outliers on a large dataset in a short time, which makes it a very suitable algorithm for detecting fake reviews in a dataset with many reviews. The anomaly detection used different features for the prediction such as the stars given in the review, the text describing the review and many more.
 
 <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
 <script type="text/javascript">
@@ -59,22 +60,21 @@ For the detection of fake reviews, anomaly detection is performed by the algorit
         
         
 ### Summary of fake reviews
-It is seen that a lot of fake reviews are detected within reviews giving 1 and 2 stars. Actually an decreasing trend is seen, so the better review, the less percentage fake reviews. One of the reasons to this might be, is that there are quite few reviews giving 1 star, which might get the algorithm to recognize many of these reviews as fake. It might come as a surprise, since you might expected that there would be most fake reviews within reviews giving 1 and 5 stars. This at least would explain reviewing competitors bad and yourself good.  
+It is seen that a lot of fake reviews are detected within reviews giving 1 and 2 stars. A decreasing trend is seen, so the better review, the less percentage of fake reviews. One of the reasons for this might be, is that quite a few reviews are given 1 star, which might get the algorithm to recognize many of these reviews as fake. It might come as a surprise since you might expect that there would be most fake reviews within reviews given 1 and 5 stars. This at least would explain reviewing competitor's bad and yourself good.  
 
-For the restaurant based on their star, a descreasing trend is also seen, except for resturants with 5 stars, here the percentage fake reviews is increased compared to restaurants with 3.5, 4, and 4.5 stars. 
+For the restaurant based on their star, a decreasing trend is also seen, except for restaurants with 5 stars, here the percentage of fake reviews is increased compared to restaurants with 3.5, 4, and 4.5 stars. 
 
-Within type of restaurants, the percentage fake reviews are around 20%. Sushi bars have the higest percentage of fake reviews with 30%. The lowest percentage fake reviews is within Coffe and tea, which has 16% fake reviews. 
+Within types of restaurants, the percentage of fake reviews is around 20%. Sushi bars has the highest percentage of fake reviews with 30%. The lowest percentage of fake reviews is within Coffee and tea, which has 16% fake reviews. 
 
-Also within type of kitchen most kitchen types has a fake review percentage on about 20%. Japanese have the highest percentage on 27%, whereas Indian has the lowest percentage fake reviews on 15%.
+Also within types of kitchen most kitchen types has a fake review percentage of about 20%. Japanese have the highest percentage of 27%, whereas Indian has the lowest percentage of fake reviews of 15%.
 
-Within states, the percentage fake reviews vary some more. Most of the states does have about 20% fake reviews, but Colorado does only have 15% fake reviews, whereas Kansas has 48% fake reviews and Kentucky has above 55% fake reviews. Though it is important to rembember that 
-Kantucky and Kansas have quite few reviews, so it doesn't take many fake reviews for the states to get a high percent fake reviews. 
+Within states, the percentage of fake reviews varies some more. Most of the states do have about 20% fake reviews, but Colorado does only have 15% fake reviews, whereas Kansas has 48% fake reviews and Kentucky has above 55% fake reviews. Though it is important to remember that 
+Kentucky and Kansas have quite a few reviews, so it doesn't take many fake reviews for the states to get a high percent of fake reviews. 
 
 
 ## Words in reviews
 
-To investigate if there is a difference between fake reviews and real reviews, word clouds are shown below. To understand the word cloud, a small description is given. The larger the word is, the more is appears in the reviews. 
-
+To investigate if there is a difference between fake reviews and real reviews, word clouds are shown below. To understand the word cloud, a small description is given. The larger the word is, the more it appears in the reviews. 
 
 The first word cloud is illustrating the words for all reviews, whereas the second and the third one are respectively real and fake reviews.
 ![Reviews]({{< baseurl >}}/image/wordReviews.png)
@@ -83,7 +83,7 @@ The first word cloud is illustrating the words for all reviews, whereas the seco
 
 ![Fake reviews]({{< baseurl >}}/image/wordFake.png)
 
-By a fast glimpse the most used words are not the same for the two review types. Furthermore it should be noticed than it is stemmed words, so the words might look at bit funny. 
+By a fast glimpse, the most used words are not the same for the two review types. Furthermore, it should be noticed that it is stemmed words, so the words might look a bit funny. 
 
 
 
